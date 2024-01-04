@@ -49,6 +49,7 @@ header {
 
     label {
       font-weight: bold;
+      border: none;
     }
 
     input {
@@ -57,6 +58,11 @@ header {
       border: none;
       border-bottom: 3px solid variaveis.$principalColor;
       cursor: pointer;
+
+      &:hover {
+        background-color: darken(variaveis.$secundaryColor, 15%);
+        color: #fff;
+      }
     }
 
     button {

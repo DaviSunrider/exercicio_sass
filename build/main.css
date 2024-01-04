@@ -41,6 +41,7 @@ header {
 }
 .form-container form label {
   font-weight: bold;
+  border: none;
 }
 .form-container form input {
   padding: 8px;
@@ -51,6 +52,10 @@ header {
   border: none;
   border-bottom: 3px solid #01a3a4;
   cursor: pointer;
+}
+.form-container form input:hover {
+  background-color: #008687;
+  color: #fff;
 }
 .form-container form button {
   padding: 8px;
